@@ -61,26 +61,26 @@ Students: records the students that are enrolled at AH University \
 ● student_id: int, auto_increment, unique, not NULL, PK (Primary Key) \
 ● student_first_name: varchar(255), not NULL \
 ● student_last_name: varchar(255), not NULL \
-● campus_id: int, not NULL, FK (Foreign Key) \
+● campus_id: int, not NULL, FK (Foreign Key)
 
 Instructors: records the instructors that lecture at AH University \
 ● instructor_id: int, auto_increment, unique, not NULL, PK (Primary Key) \
 ● instructor_first_name: varchar(255), not NULL \
 ● instructor_last_name: varchar(255), not NULL \
-● campus_id: int, FK (Foreign Key) \
+● campus_id: int, FK (Foreign Key)
 
 Campuses: records the campuses offered at AH University \
 ● campus_id: int, auto_increment, unique, not NULL, PK (Primary Key) \
 ● campus_name: varchar(255), unique, not NULL \
 ● campus_city: text \
 ● campus_country: text \
-● campus_online: boolean \
+● campus_online: boolean
 
 Sections: records the sections of courses with its campus and instructor \
 ● section_id: int, auto_increment, unique, not NULL, PK (Primary Key) \
 ● course_id: int, not NULL, FK (Foreign Key) \
 ● instructor_id: int, not NULL, FK (Foreign Key) \
-● campus_id: int, not NULL, FK (Foreign Key) \
+● campus_id: int, not NULL, FK (Foreign Key)
 
 #### [ Relationships ]
 The Entities are related as follows:
