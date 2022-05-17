@@ -1,5 +1,5 @@
 # university-database
-Implementation of a university database for CS 340 Introduction to Databases
+Implementation of a university database using MySQL
 
 ## Entity-Relationship Diagram
 ![image](https://user-images.githubusercontent.com/71689421/145125503-29a3ccce-e3ca-4a0b-80d2-9febb2fbbc04.png)
