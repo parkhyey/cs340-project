@@ -1,6 +1,12 @@
 # university-database
 Implementation of a university database using MySQL
 
+## How to install Flask
+- py -3 -m venv .venv
+- .venv\scripts\activate # activate virtual environment
+- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted # run only if above line doesn't work
+- pip install Flask
+
 ## Entity-Relationship Diagram
 ![image](https://user-images.githubusercontent.com/71689421/145125503-29a3ccce-e3ca-4a0b-80d2-9febb2fbbc04.png)
 
