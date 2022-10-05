@@ -6,6 +6,9 @@ Implementation of a university database using MySQL
 - .venv\scripts\activate # activate virtual environment
 - Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted # run only if above line doesn't work
 - pip install Flask
+- pip(or pip3) install flask-mysqldb
+- pip(or pip3) install python-dotenv
+- pip(or pip3) install geopy
 
 ## Entity-Relationship Diagram
 ![image](https://user-images.githubusercontent.com/71689421/145125503-29a3ccce-e3ca-4a0b-80d2-9febb2fbbc04.png)
