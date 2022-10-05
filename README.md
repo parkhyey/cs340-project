@@ -9,6 +9,7 @@ Implementation of a university database using MySQL
 - pip(or pip3) install flask-mysqldb
 - pip(or pip3) install python-dotenv
 - pip(or pip3) install geopy
+- pip3 install -r requirements.txt
 
 ## Entity-Relationship Diagram
 ![image](https://user-images.githubusercontent.com/71689421/145125503-29a3ccce-e3ca-4a0b-80d2-9febb2fbbc04.png)
